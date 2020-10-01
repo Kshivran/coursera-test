@@ -58,7 +58,7 @@ body {
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-#sec-head {
+#sec-head1, #sec-head2, #sec-head3 {
   font-family: 'Grandstander', cursive;
   color: black;
   margin-bottom: -40px;

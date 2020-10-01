@@ -1,0 +1,127 @@
+body {
+  font-size: 16px;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar-brand h1 { /* Brand name */
+  font-family: 'Grandstander', cursive;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  margin-top: 10px;
+  font-family: 'Grandstander', cursive;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#main-menu{ /* Brand name */
+  font-family: 'Grandstander', cursive;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 30px;
+}
+#section{
+  background-color: #C0D9AF;
+  border: 2px solid black;
+  height: 220px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+#sec-head {
+  font-family: 'Grandstander', cursive;
+  color: black;
+  margin-bottom: -40px;
+}
+
+p{
+  width: 90%;
+  font-family: 'Grandstander', cursive;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  color: black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+ /* End Header */
+}
